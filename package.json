@@ -1,0 +1,25 @@
+{
+  "name": "stock-scraping",
+  "version": "0.0.1",
+  "description": "This is web scraping bot for stock info",
+  "main": "index.js",
+  "repository": "https://github.com/FME849/stockWebScraping.git",
+  "author": "FME849 <1414439@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "eslint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "puppeteer": "^14.3.0"
+  }
+}
